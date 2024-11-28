@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Clínica Médica - Gerencie Consultas e Pacientes</title>
+</head>
+<body>
+    <div class="container">
+        <aside class="menu-aside" aria-label="Menu lateral">
+            <a class="link selecionado" href="#" aria-label="Consultas">
+                <img src="assets/Calendarioicone.svg" alt="Ícone de calendário">
+                <p class="descricao-link">Consultas</p>
+            </a>
+            <a class="link" href="#" aria-label="Clientes">
+                <img src="assets/clientes_icone.svg" alt="Ícone de clientes">
+                <p class="descricao-link">Clientes</p>
+            </a>
+            <a class="link" href="#" aria-label="Relatórios">
+                <img src="assets/relatorios_icone.svg" alt="Ícone de relatórios">
+                <p class="descricao-link">Relatórios</p>
+            </a>
+            <a class="link" href="#" aria-label="Menu">
+                <img src="assets/menu_icone.svg" alt="Ícone de menu">
+                <p class="descricao-link">Menu</p>
+            </a>
+        </aside>
+        
+        <main class="conteudo">
+            <section class="perfil">
+                <div class="perfil-foto">
+                    <img loading="lazy" src="assets/Ellipse_4.svg" alt="Foto de perfil da doutora">
+                </div>
+                <div class="perfil-mensagens">
+                    <h1 id="perfil-section" class="perfil-boas-vindas">Olá, Sônia</h1>
+                    <h2 class="perfil-alerta">Você tem 3 consultas hoje</h2>
+                </div>
+            </section>
+            
+            <section>
+                <h1 class="titulo-consultas">Hoje</h1>
+                <div class="consultas">
+                    <div class="consulta">
+                        <div class="consulta-informacoes">
+                            <img src="assets/Rectangle_119.svg" alt="foto do paciente" height="36">
+                            <div class="consulta-paciente">
+                                <h1 class="paciente-nome"> Luciana Dias</h1>
+                                <h2 class="paciente-tipo-consulta"> <img src="assets/Camera.svg" alt="ícone câmera"> Consulta remota</h2>
+                            </div>
+                            <a class="consulta-chat" href="#"> <img src="assets/chat1.svg" alt="ícone chat" height="18"></a>
+                        </div>
+                        <h4 class="consulta-horario"> 14:00 - 15:00 (1 hora)</h4>
+                        <div class="consulta-ligacao">
+                            <a class="consulta-video" href="#"> Ligar por vídeo</a>
+                            <a class="consulta-audio" href="#"> Ligar por áudio</a>
+                        </div>
+                    </div>
+                    <div class="consulta">
+                        <div class="consulta-informacoes">
+                            <img src="assets/Rectangle_120.svg" alt="foto do paciente" height="36">
+                            <div class="consulta-paciente">
+                                <h2 class="paciente-nome"> Larissa Santana</h2>
+                                <h3 class="paciente-tipo-consulta"> <img src="assets/pin.svg" alt="ícone câmera"> Consulta no local</h3>
+                            </div>
+                            <a class="consulta-chat" href="#"> <img src="assets/chat1.svg" alt="ícone chat" height="18"></a>
+                        </div>
+                        <h4 class="consulta-horario"> 16:00 - 17:00 (1 hora)</h4>
+                        <div class="consulta-ligacao ligacao2">
+                            <a class="consulta-endereco" href="#">Ver endereço </a>
+                        </div>
+                    </div>
+                    <div class="consulta">
+                        <div class="consulta-informacoes">
+                            <img src="assets/Rectangle_121.svg" alt="foto do paciente" height="36">
+                            <div class="consulta-paciente">
+                                <h2 class="paciente-nome"> Marcos Correia</h2>
+                                <h3 class="paciente-tipo-consulta"> <img src="assets/Camera.svg" alt="ícone câmera"> Consulta remota</h3>
+                            </div>
+                            <a class="consulta-chat" href="#"> <img src="assets/chat1.svg" alt="ícone chat" height="18"></a>
+                        </div>
+                        <h4 class="consulta-horario"> 17:20 - 18:00 (40 minutos)</h4>
+                        <div class="consulta-ligacao">
+                            <a class="consulta-video" href="#"> Ligar por vídeo</a>
+                            <a class="consulta-audio" href="#"> Ligar por áudio</a>
+                        </div>
+                    </div>   
+                </div>
+            </section>
+            
+            <section>
+                <h1 class="titulo-consultas">Amanhã</h1>
+                <div class="consultas inferior">
+                    <div class="consulta">
+                        <div class="consulta-informacoes">
+                            <img src="assets/Rectangle_122.svg" alt="foto do paciente" height="36">
+                            <div class="consulta-paciente">
+                                <h2 class="paciente-nome"> Clara Lemos</h2>
+                                <h3 class="paciente-tipo-consulta"> <img src="assets/pin.svg" alt="ícone câmera"> Consulta no local</h3>
+                            </div>
+                            <a class="consulta-chat" href="#"> <img src="assets/chat1.svg" alt="ícone chat" height="18"></a>
+                        </div>
+                        <h4 class="consulta-horario"> 18:00 - 19:00 (1 hora)</h4>
+                        <div class="consulta-ligacao ligacao2">
+                            <a class="consulta-endereco" href="#"> Ver endereço</a>
+                        </div>
+                    </div>
+                    <div class="consulta">
+                        <div class="consulta-informacoes">
+                            <img src="assets/Rectangle_119.svg" alt="foto do paciente" height="36">
+                            <div class="consulta-paciente">
+                                <h2 class="paciente-nome"> Luciana Dias</h2>
+                                <h3 class="paciente-tipo-consulta"> <img src="assets/Camera.svg" alt="ícone câmera"> Consulta remota</h3>
+                            </div>
+                            <a class="consulta-chat" href="#"> <img src="assets/chat1.svg" alt="ícone chat" height="18"></a>
+                        </div>
+                        <h4 class="consulta-horario"> 14:00 - 15:00 (1 hora)</h4>
+                        <div class="consulta-ligacao">
+                            <a class="consulta-video" href="#"> Ligar por vídeo</a>
+                            <a class="consulta-audio" href="#"> Ligar por áudio</a>
+                        </div>
+                    </div>
+                    <div class="consulta">
+                        <div class="consulta-informacoes">
+                            <img src="assets/Rectangle_121.svg" alt="foto do paciente" height="36">
+                            <div class="consulta-paciente">
+                                <h2 class="paciente-nome"> Marcos Correia</h2>
+                                <h3 class="paciente-tipo-consulta"> <img src="assets/Camera.svg" alt="ícone câmera"> Consulta remota</h3>
+                            </div>
+                            <a class="consulta-chat" href="#"> <img src="assets/chat1.svg" alt="ícone chat" height="18"></a>
+                        </div>
+                        <h4 class="consulta-horario"> 17:20 - 18:00 (40 minutos)</h4>
+                        <div class="consulta-ligacao">
+                            <a class="consulta-video" href="#"> Ligar por vídeo</a>
+                            <a class="consulta-audio" href="#"> Ligar por áudio</a>
+                        </div>
+                    </div>
+                    <div class="consulta">
+                        <div class="consulta-informacoes">
+                            <img src="assets/Rectangle_121.svg" alt="foto do paciente" height="36">
+                            <div class="consulta-paciente">
+                                <h2 class="paciente-nome"> Marcos Correia</h2>
+                                <h3 class="paciente-tipo-consulta"> <img src="assets/Camera.svg" alt="ícone câmera"> Consulta remota</h3>
+                            </div>
+                            <a class="consulta-chat" href="#"> <img src="assets/chat1.svg" alt="ícone chat" height="18"></a>
+                        </div>
+                        <h4 class="consulta-horario"> 17:20 - 18:00 (40 minutos)</h4>
+                        <div class="consulta-ligacao">
+                            <a class="consulta-video" href="#"> Ligar por vídeo</a>
+                            <a class="consulta-audio" href="#"> Ligar por áudio</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <section>
+                <h1 class="titulo-nova-consulta">Nova consulta</h1>
+                <div class="nova-consulta">
+                    <form class="formulario-consulta">
+                        <label class="descricao-input" for="nome">Nome</label>
+                        <input class="input-nome" id="nome" type="text" placeholder="Nome do paciente" required>
+                        
+                        <label class="descricao-input" for="tipo-consulta">Tipo de consulta</label>
+                        <select id="tipo-consulta" class="tipo-consulta-escolha">
+                            <option value="" disabled selected>Escolha o tipo de consulta</option>
+                            <option value="1">Remota</option>
+                            <option value="2">Presencial</option>
+                        </select>
+                        
+                        <label class="descricao-input" for="data">Data e Hora</label>
+                        <div>
+                            <input class="input-data" id="data" type="date" required>
+                            <input class="input-hora" type="time" required>
+                        </div>
+                        
+                        <label class="descricao-input" for="observacoes">Observações</label>
+                        <textarea id="observacoes" class="input-observacao" placeholder="Observações sobre a consulta"></textarea>
+                        
+                        <button class="btn-enviar" type="submit">Salvar</button>
+                    </form>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <footer class="rodape" aria-label="Rodapé">
+        <nav class="rodape-nav" aria-label="Navegação do rodapé">
+            <a class="rodape-link selecionado" href="#" aria-label="Consultas">
+                <img src="assets/Calendarioicone.svg" alt="Ícone de calendário">
+                <p>Consultas</p>
+            </a>
+            <a class="rodape-link" href="#" aria-label="Clientes">
+                <img src="assets/clientes_icone.svg" alt="Ícone de clientes">
+                <p>Clientes</p>
+            </a>
+            <a class="rodape-link" href="#" aria-label="Relatórios">
+                <img src="assets/relatorios_icone.svg" alt="Ícone de relatórios">
+                <p>Relatórios</p>
+            </a>
+            <a class="rodape-link" href="#" aria-label="Menu">
+                <img src="assets/menu_icone.svg" alt="Ícone de menu">
+                <p>Menu</p>
+            </a>
+        </nav>
+
+        <button class="botao-flutuante" aria-label="Abrir menu">
+            <img src="assets/Botao_flutuante.svg" alt="Botão de abrir menu">
+        </button>
+
+        <div class="botao-flutuante-video hidden">
+            <p class="texto-botao-flutuante" id="descricao-video">Nova consulta por vídeo</p>
+            <button class="botao-video" aria-labelledby="descricao-video">
+                <img src="assets/camera_fab.svg" alt="">
+            </button>
+        </div> 
+
+        <div class="botao-flutuante-presencial hidden">
+            <p class="texto-botao-flutuante" id="descricao-presencial">Nova consulta na casa do paciente</p>
+            <button class="botao-presencial" aria-labelledby="descricao-presencial">
+                <img src="assets/pin_fab.svg" alt="">
+            </button>
+        </div>
+        
+        <div class="escuro hidden"></div>
+    </footer>
+    
+    <script src="app.js"></script>
+</body>
+</html>

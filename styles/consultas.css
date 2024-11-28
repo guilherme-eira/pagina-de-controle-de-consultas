@@ -1,0 +1,236 @@
+.menu-aside {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 1em;
+    background-color: var(--branco-fundo);
+}
+
+.link {
+    padding: 1em 2em;
+    margin: 1em;
+    text-decoration: none;
+    color: var(--cinza-escuro);
+}
+
+.descricao-link {
+    margin-top: .5em
+}
+
+.inferior {
+    padding-bottom: 5em;
+}
+
+.titulo-consultas, .titulo-nova-consulta {
+    font-size: 1.2em;
+    padding-left: 1em;
+    margin-top: 1em;
+    font-weight: 600;
+    color: var(--cinza-escuro);
+}
+
+.consulta {
+    display: flex;
+    flex-direction: column;
+    margin: .5em;
+    padding: 1em;
+    border-radius: .5em;
+    background-color: var(--branco-fundo);
+}
+
+.consulta-informacoes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0 .5em 0;
+}
+
+.consulta-paciente {
+    margin-right: auto;
+    padding: 0 0 0 1em;
+}
+
+.paciente-nome {
+    color: var(--cinza-escuro);
+    font-weight: 700;
+    margin: .5em 0 .3em 0;
+}
+
+.paciente-tipo-consulta {
+    font-size: 14px;
+    color: var(--cinza-claro);
+    margin-bottom: .5em;
+}
+
+.consulta-horario {
+    font-weight: 500;
+    color: var(--cinza-escuro);
+    padding: 1em 0 .1em 0;
+    border-top: 1px solid #dbd9d9;
+}
+
+.consulta-ligacao {
+    padding: 2em 0 1em 0;
+    text-align: center;
+}
+
+.ligacao2 {
+    padding: 1em 0 0 0;
+}
+
+.consulta-video {
+    padding: 1em 5%;
+    border-radius: .5em;
+    background-color: var(--amarelo-botao);
+    color: var(--branco-fundo);
+    font-weight: 500;
+    margin-right: .5em;
+    text-decoration: none;
+}
+
+.consulta-audio {
+    padding: 1em 5%;
+    border: .1em solid #cfcfcf;
+    border-radius: .5em;
+    font-weight: 500;
+    color: var(--cinza-escuro);
+    text-decoration: none;
+}
+
+.consulta-endereco {
+    display: inline-block;
+    width: 80%;
+    padding: 1em .2em;
+    border-radius: .5em;
+    background-color: var(--azul-botao);
+    color: var(--branco-fundo);
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.titulo-nova-consulta {
+    display: none;
+}
+
+.formulario-consulta {
+    display: none;
+    flex-direction: column;
+    width: 33em;
+    margin: .5em 1.5em 3em .5em;
+    padding: 1em;
+    border-radius: .5em;
+    background-color: var(--branco-fundo);
+}
+
+.descricao-input {
+    font-size: 1.1em;
+    color: var(--cinza-escuro);
+    font-weight: 700;
+    margin: 1em 0 .5em 0;
+}
+
+.input-nome, .tipo-consulta-escolha, .input-observacao, .input-data, .input-hora {
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    padding-left: 1em;
+    color: var(--cinza-escuro);
+    border-radius: .5em;
+    border: 1px solid var(--cinza-claro);
+    outline: none;
+}
+
+.input-nome, .input-observacao {
+    height: 3em;
+    width: 31.5em;
+}
+
+.input-data, .input-hora {
+    height: 3em;
+    width: 15em;
+}
+
+.tipo-consulta-escolha {
+    height: 3.2em;
+    width: 32.5em;
+}
+
+.btn-enviar {
+    font-family: var(--fonte-principal);
+    font-size: 1em;
+    font-weight: 500;
+    margin-top: 2.5em;
+    height: 3em;
+    width: 32.5em;
+    background-color: var(--azul-botao);
+    color: var(--branco-fundo);
+    border: none;
+    border-radius: .5em;
+    outline: none;
+}
+
+.consulta-video:hover {
+    background-color: #ffc175;
+}
+
+.consulta-audio:hover {
+    background-color: #e4e4e4;
+}
+
+.consulta-endereco:hover {
+    background-color: #68a3f5;
+}
+
+.btn-enviar:hover {
+    cursor: pointer;
+    background-color: #68a3f5;
+}
+
+@media screen and (min-width:1024px) {
+    .consultas {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .consulta {
+        width: 40%;
+        padding: 2.2em;
+    }
+}
+
+@media screen and (min-width:1600px) {
+    .container {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .menu-aside {
+        display: flex;
+    }
+    
+    .consultas {
+        padding-bottom: 3em;
+    }
+
+    .consulta {
+        width: 27%;
+        padding: 2em;
+    }
+
+    .consulta-video, .consulta-audio {
+        font-size: 1em;
+        padding: 1em .5em;
+    }
+
+    .titulo-nova-consulta {
+        display: block;
+    }
+
+    .formulario-consulta{
+        display: flex;
+    }
+}

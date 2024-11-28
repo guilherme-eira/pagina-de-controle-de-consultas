@@ -1,0 +1,43 @@
+.perfil {
+    display: flex;
+    flex-direction: row;
+    padding: 1.2em 1em 1em 1em;
+    align-items: center;
+}
+
+.perfil-mensagens{
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+}
+
+.perfil-boas-vindas {
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--cinza-escuro);
+    
+}
+
+.perfil-alerta {
+    color: var(--cinza-claro);
+    font-size: 14px;
+    margin-top: .5em;
+}
+
+@media screen and (min-width:1600px) {
+
+    .perfil {
+        display: flex;
+        flex-direction: row;
+        padding: 1.2em 1em 1em 2em;
+        align-items: center;
+    }
+
+    .perfil-boas-vindas {
+        font-size: 31px;
+    }
+
+    .perfil-alerta {
+        font-size: 18px;
+    }
+}
