@@ -25,9 +25,6 @@ O desenvolvimento envolveu a transformação de um layout fornecido no Figma em 
 - **Transformação de Layout Figma em Código**:
   - O layout fornecido no Figma foi convertido em HTML e CSS, com atenção a detalhes como cores, fontes e espaçamento.
 
-- **Botões Flutuantes**:
-  - Foram implementados botões flutuantes na página, com funcionalidades específicas para facilitar a navegação.
-
 - **Unidades Relativas**:
   - Para garantir a responsividade, foram utilizadas unidades relativas como `em` e `%` no lugar de unidades fixas.
 
