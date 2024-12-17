@@ -47,7 +47,7 @@
 
 .texto-botao-flutuante {
     font-size: 12px;
-    padding: .5em;
+    padding: 1.3em;
     background-color: var(--branco-fundo);
     border-radius: 2em;
 }
@@ -88,6 +88,7 @@
     }
 
     .texto-botao-flutuante {
+        padding: 1.3em;
         background-color: var(--azul-botao);
         color: var(--branco-fundo);
     }
